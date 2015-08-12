@@ -8,22 +8,17 @@ module.exports = function(grunt) {
       },
       dist: {
         options: {
-          outputStyle: 'compressed',
-          sourceMap: true,
+          outputStyle: 'compressed'
         },
         files: {
-          'css/app.css': 'scss/app.scss'
-        }
+          'css/app.css': 'scss/app.scss',
+          'css/dashboard.css': 'scss/dashboard.scss'
+        }        
       }
     },
 
     watch: {
-      grunt: {
-        options: {
-          reload: true
-        },
-        files: ['Gruntfile.js']
-      },
+      grunt: { files: ['Gruntfile.js'] },
 
       sass: {
         files: 'scss/**/*.scss',
