@@ -1,7 +1,17 @@
+body{
+	word-wrap: break-word;
+}
 .hero-wrapper {
-	//background: rgba(0, 0, 0, 0) url("../../img/develop/template-themes/portfolio6.jpg")repeat scroll 0 0 / cover ;
-	background: #6fbd8d;
-    height: 700px;
+	background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
+	background-attachment: fixed;
+	//background: #6fbd8d;
+    height: 600px;
+    margin: auto;
+}
+.skill-set {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
+	background: #ffffff;
+    height: 600px;
     margin: auto;
 }
 .panel {
@@ -14,7 +24,7 @@
 	font-size: 4rem;
 	font-weight: bold;
 	color: #ffffff;
-	margin-top:5rem;
+	margin-top:10rem;
 	line-height: 4.5rem;
 }
 .intro-text h3{
