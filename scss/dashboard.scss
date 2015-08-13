@@ -11,8 +11,16 @@ body{
 .skill-set {
 	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
 	background: #ffffff;
+    height: 550px;
+    margin: auto;
+    padding: 4rem;
+}
+.recent-works {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
+	background: #f1f3f8;
     height: 600px;
     margin: auto;
+    padding: 4rem;
 }
 .panel {
 	background: none;
@@ -33,4 +41,34 @@ body{
 	color: #ffffff;
 	margin-top:2.4rem;
 	line-height: 3.2rem;
+}
+.skills{
+	text-align: center;
+	height: 80%;
+	padding: 0 2.5rem;
+	//border: 1px solid #e6e6e6;
+}
+.section-header{
+	text-align: center;
+	font-size: 2rem;
+	color: #626262;
+	margin-bottom: 3.2rem;
+}
+.skills h5{
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #525252;
+	margin-top:.1rem;
+	line-height: 2rem;
+	margin-bottom: 1.2rem;
+}
+.skills p{
+	color: #646464;
+}
+.font-icon-visual{
+	 font-family: untitled-font-2;
+	 color: #458787 !important;
+	 font-size: 3rem;
+	 margin-bottom: .5rem;
 }
