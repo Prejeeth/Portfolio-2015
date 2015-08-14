@@ -1,5 +1,7 @@
 //coded by Prejeeth Thirumani | 08/12-13/2015 1.34 HRS PST//
 
+@import  "./_settings";
+
 body{
 	word-wrap: break-word;
 }
@@ -27,6 +29,13 @@ body{
 .biography {
 	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
 	background: #ffffff;
+    height: 600px;
+    margin: auto;
+    padding: 4rem;
+}
+.fat-footer {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
+	background: #f1f3f8;
     height: 600px;
     margin: auto;
     padding: 4rem;
@@ -82,7 +91,41 @@ body{
 	 font-size: 3rem;
 	 margin-bottom: .5rem;
 }
+.footer-font-icon-visual{
+	 font-family: untitled-font-2;
+	 color: #458787 !important;
+	 font-size: 4rem;
+	 margin-bottom: .5rem;
+	 text-align: center;
+}
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
+.list-inline { 
+    display: block;
+    list-style-type: none;  
+}
+.fat-footer ul li{
+	float: left;
+}
+.fat-footer a{
+	color: #525252 !important;
+}
+.fat-footer p.copyright{
+	color: #bbbbbb;
+	text-align: center;
+	margin: 4rem 0;
+}
+@media #{$small-only} {
+	.skills{
+		text-align: center;
+		height: 80%;
+		padding: 2rem 2.5rem;
+		border-bottom: 1px dashed #e6e6e6;
+	}
+	.intro-text h3{
+	display: none;
+
+}
+ }
