@@ -24,6 +24,13 @@ body{
     margin: auto;
     padding: 4rem;
 }
+.biography {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
+	background: #ffffff;
+    height: 600px;
+    margin: auto;
+    padding: 4rem;
+}
 .panel {
 	background: none;
 	border: none;
@@ -39,10 +46,11 @@ body{
 }
 .intro-text h3{
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.8rem;
 	color: #ffffff;
 	margin-top:2.4rem;
-	line-height: 3.2rem;
+	line-height: 3.0rem;
 }
 .skills{
 	text-align: center;
@@ -73,4 +81,8 @@ body{
 	 color: #458787 !important;
 	 font-size: 3rem;
 	 margin-bottom: .5rem;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
