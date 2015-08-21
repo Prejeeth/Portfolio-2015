@@ -9,7 +9,7 @@ body{
 	background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
 	background-attachment: fixed;
 	//background: #6fbd8d;
-    height: 600px;
+    min-height: 600px;
     margin: auto;
 }
 .skill-set {
@@ -29,14 +29,14 @@ body{
 .biography {
 	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
 	background: #ffffff;
-    height: 600px;
+    //height: 600px;
     margin: auto;
     padding: 4rem;
 }
 .fat-footer {
 	background: #6fbd8d url("../visual-assets/footer-bg1.png")repeat scroll 0 0 / cover;
 	//background: #f1f3f8;
-    height: 600px;
+    //height: 600px;
     margin: auto;
     padding: 4rem;
 }
@@ -48,12 +48,16 @@ body{
 	border: none;
 	text-align: center;
 }
+.me{
+	text-align: center;
+	margin: 4rem auto 0 auto;
+}
 .intro-text h1{
 	text-align: center;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	color: #ffffff;
-	margin-top:10rem;
+	margin-top:2rem;
 	line-height: 4.5rem;
 }
 .intro-text h3{
@@ -61,7 +65,7 @@ body{
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.8rem;
 	color: #ffffff;
-	margin-top:2.4rem;
+	margin:2.4rem auto 5rem auto;
 	line-height: 3.0rem;
 }
 .skills{
@@ -94,6 +98,21 @@ body{
 	 font-size: 3rem;
 	 margin-bottom: .5rem;
 }
+.biography p{
+	color: #646464;
+}
+.section-header2{
+	font-size: 2rem;
+	color: #626262;
+	margin-bottom: 3.2rem;
+}
+.biography h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.8rem;
+	color: #525252;
+	margin:2.4rem auto 3rem auto;
+	line-height: 3.0rem;
+}
 .footer-font-icon-visual{
 	 font-family: untitled-font-2;
 	 color: #458787 !important;
@@ -111,7 +130,7 @@ body{
 }
 .fat-footer ul li{
 	display: inline-block;
-	margin: 1rem;
+	margin: .5rem;
 }
 .fat-footer a{
 	color: #ffffff !important;
@@ -128,13 +147,16 @@ body{
 .fat-footer p.copyright{
 	color: #bbbbbb;
 	text-align: center;
-	margin-top: 8rem;
+	margin-top: 6rem;
 	opacity: 0.5;
 }
 ul.home-social {
     list-style-type: none;
     text-align: center;
-}
+} 
+.fat-footer .social-wrapper{
+ 	margin: auto;
+ }
 @media #{$small-only} {
 	.skills{
 		text-align: center;
@@ -146,7 +168,4 @@ ul.home-social {
 	display: none;
 
 }
- }
- .fat-footer .social-wrapper{
- 	margin: auto;
  }
