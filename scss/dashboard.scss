@@ -22,9 +22,9 @@ body{
 .recent-works {
 	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
 	background: #f1f3f8;
-    height: 600px;
+    //height: 600px;
     margin: auto;
-    padding: 4rem;
+    padding: 4rem 4rem 8rem 4rem;
 }
 .biography {
 	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
@@ -165,11 +165,25 @@ ul.home-social {
 		padding: 2rem 2.5rem;
 		border-bottom: 1px dashed #e6e6e6;
 	}
-	.intro-text h3{
-	display: none;
-
-}
+		.intro-text h3{
+		display: none;
+	}
  }
+ //-----Recent Work----//
+
+ .thumbnail{
+ 	background: #acacac;
+ 	margin-left: 1rem ;
+ }
+ .recent{
+	text-align: center;
+	height: 80%;
+	padding: 0 2.5rem;
+	marging-bottom: 1rem;
+	//border: 1px solid #e6e6e6;
+}
+
+
  //-----Skills----//
 
  .skillbar {
@@ -198,8 +212,8 @@ ul.home-social {
 	position:absolute;
 	top:0;
 	left:0;
-	font-weight:bold;
-	font-size:13px;
+	font-weight:normal;
+	font-size:1rem;
 	color:#fff;
 	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
@@ -237,7 +251,7 @@ ul.home-social {
 	position:absolute;
 	right:10px;
 	top:0;
-	font-size:11px;
+	font-size:.8rem;
 	height:35px;
 	line-height:35px;
 	color:#444;
