@@ -7,11 +7,11 @@
     <title>Prejeeth Thirumani</title>
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/skills.css" />
     <link href="https://fontastic.s3.amazonaws.com/7y3RxUV8RgiU5XeQyhvaJ9/icons.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/to/parallax.js"></script>
-    <script src="js/to/animatedskillsgraph.js"></script>
+    <script src="./js/animatedskillsgraph.js"></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -64,27 +64,37 @@
         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
         </div>
         <div class="medium-6 large-4 columns">
-        <h2>Skills </h2>
-              <div class="skillbar clearfix " data-percent="65%">
-              <div class="skillbar-title" style="background: #88cd2a;"><span>HTML5</span></div>
-              <div class="skillbar-bar" style="background: #88cd2a;"></div>
-              <div class="skill-bar-percent">65%</div>
+        <p class="section-header2">Skills</p>
+             <div class="skillbar clearfix " data-percent="100%">
+              <div class="skillbar-title" style="background: #E76F66;"><span>Visual</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
+              <div class="skill-bar-percent">100%</div>
             </div>
-            <!--  CSS -->
-            <div class="skillbar clearfix " data-percent="85%">
-              <div class="skillbar-title" style="background: #00a8ff;"><span>CSS</span></div>
-              <div class="skillbar-bar" style="background: #00a8ff;"></div>
-              <div class="skill-bar-percent">85%</div>
+            <div class="skillbar clearfix " data-percent="100%">
+              <div class="skillbar-title" style="background: #E76F66;"><span>Interaction</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
+              <div class="skill-bar-percent">100%</div>
             </div>
-            <!-- /CSS -->
-            <!-- jQuery  -->
+            <div class="skillbar clearfix " data-percent="100%">
+              <div class="skillbar-title" style="background: #E76F66;"><span>Responsive</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
+              <div class="skill-bar-percent">100%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="50%">
+              <div class="skillbar-title" style="background: #E76F66;"><span>Mobile</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
+              <div class="skill-bar-percent">50%</div>
+            </div>
             <div class="skillbar clearfix " data-percent="60%">
-              <div class="skillbar-title" style="background: #00a8ff;"><span>CSS</span></div>
-              <div class="skillbar-bar" style="background: #00a8ff;"></div>
+              <div class="skillbar-title" style="background: #E76F66;"><span>HTML5</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
               <div class="skill-bar-percent">60%</div>
             </div>
-            <!-- /jQuery  -->
-        </div>
+            <div class="skillbar clearfix " data-percent="60%">
+              <div class="skillbar-title" style="background: #E76F66;"><span>CSS3</span></div>
+              <div class="skillbar-bar" style="background: #E76F66;"></div>
+              <div class="skill-bar-percent">60%</div>
+            </div>
         </div>
       <!-- <div class="row">
         <div class="large-8 columns">
@@ -136,5 +146,10 @@
       <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script>jQuery('.skillbar').each(function() {
+  jQuery(this).find('.skillbar-bar').animate({
+    width: jQuery(this).attr('data-percent')
+  }, 2000);
+});</script>
   </body>
 </html>
