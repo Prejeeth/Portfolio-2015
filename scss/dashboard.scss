@@ -266,6 +266,37 @@ ul.home-social {
 	color:rgba(0, 0, 0, 0.4);
 }
 
+//----- Sub Page -----//
+.page-intro {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
+	//background-attachment: fixed;
+	//background: #6fbd8d;
+    //min-height: 600px;
+    margin: auto;
+}
+.intro-text-subpage h1 {
+	text-align: center;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #444444;
+	margin-top:2rem;
+	line-height: 4.5rem;
+}
+.intro-text-subpage h3 {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.8rem;
+	color: #525252;
+	margin:2.4rem auto 5rem auto;
+	line-height: 3.0rem;
+}
+.insportal1 {
+	background: #6fbd8d url("../visual-assets/InsurancePortal_01.png")repeat scroll center center / cover;
+    height: 2000px;
+    margin: auto;
+    padding: 4rem 4rem 8rem 4rem;
+}
+
 //-----Media Resets-----//
 
 @media #{$small-only} {
@@ -288,3 +319,25 @@ ul.home-social {
 		margin: 3.2rem auto 3.2rem auto;
 	}
  }
+//-----Modal-----//
+.reveal-modal {
+    left: 0;
+    margin: 0 auto;
+    max-width: 78rem !important;
+    right: 0;
+    width: 90% !important;
+}
+.reveal-modal {
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    border-radius: none !important;
+    box-shadow: none !important;
+    display: none;
+    left: 0;
+    padding: 1.875rem;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1005;
+}
