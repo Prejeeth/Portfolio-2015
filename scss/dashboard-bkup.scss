@@ -17,7 +17,9 @@ body.no-scroll {
     margin: auto;
 }
 .skill-set {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll 0 0 / cover;
 	background: #ffffff;
+    //height: 550px;
     margin: auto;
     padding: 4rem;
 }
@@ -149,7 +151,7 @@ body.no-scroll {
 .fat-footer h2{
 	font-size: 2rem;
 	color: #ffffff;
-	font-weight: normal;
+	font-weight: bold;
 	text-align: center;
 	opacity: 0.8;
 	margin: 3rem 0 2rem 0;
@@ -269,34 +271,37 @@ ul.home-social {
 }
 
 //----- Sub Page -----//
+.page-intro {
+	//background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
+	//background-attachment: fixed;
+	//background: #6fbd8d;
+    //min-height: 600px;
+    margin: auto;
+}
 .intro-text-subpage{
-	//background: #6fbd8d url("../visual-assets/hero-ip1a.png")repeat scroll center center / cover;
+	//background: #6fbd8d url("../visual-assets/bg.png")repeat scroll center center / cover;
 }
 .intro-text-subpage h1 {
 	text-align: center;
 	font-size: 3.5rem;
 	font-weight: 300;
-	color: #ffffff;
+	color: #444444;
 	padding-top:4rem;
 	line-height: 4.5rem;
 	margin:0 4.3rem 0 4.3rem;
-	text-shadow: -1px -1px 20px rgba(0, 0, 0, 0.20);
 }
 .intro-text-subpage h3 {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.8rem;
-	color: #ffffff;
-	margin:1.4rem 11rem 5rem 11rem;
+	font-size: 1.2rem;
+	color: #525252;
+	margin:2.4rem 11rem 5rem 11rem;
 	line-height: 2.4rem;
-	text-shadow: -1px -1px 20px rgba(0, 0, 0, 0.20);
-	opacity: .8;
 }
 p.intro-text-subpage {
 	font-weight: 300;
-	color: #8e8e8e !important;
-	text-align: justify;
-}
+	color: #646464 !important;
+	}
 .callout1{
 	margin-top: .7rem;
 	color: #848484 !important;
@@ -305,7 +310,14 @@ p.intro-text-subpage {
 	text-align: center;
 	font-size: 2rem;
 	color: #444444;
-	margin: 0 auto 3.2rem auto;
+	margin: -2.5rem auto 3.2rem auto;
+}
+
+.insportal1 {
+	background: #6fbd8d url("../visual-assets/InsurancePortal_01.png")repeat scroll center center / cover;
+    height: 2000px;
+    margin: auto;
+    padding: 4rem 4rem 8rem 4rem;
 }
 
 //-----Media Resets-----//
@@ -330,10 +342,12 @@ p.intro-text-subpage {
 		margin: 3.2rem auto 3.2rem auto;
 	}
  }
-//-----Modal 1 IP-----//
+//-----Modal-----//
+#modal-1 {
+	text-align: center;
+}
 
 .modal-container {
-	text-align: center;
 	display: none;
 	section {
 		display: inline-block;
@@ -343,14 +357,14 @@ p.intro-text-subpage {
 	max-width:80rem;
 }
 .modal-rowwidth2{
-	padding: 5.2rem;
+	padding: 4.2rem;
 	text-align: justify;
 }
 .modal-rowwidth3{
-	padding: 0rem 2rem 0rem 6rem;
+	padding: 0rem 1rem 0rem 6rem;
 }
 .modal-rowwidth4{
-	padding: 0rem 6rem 0rem 2rem;
+	padding: 0rem 6rem 0rem 1rem;
 }
 .modal-open {
 	display: block;
@@ -362,57 +376,19 @@ p.intro-text-subpage {
 	width: 100%;
 	height: 100%;
 	overflow-y: scroll;
-	background-color: rgba(250,250,250,0.9);
+	background-color: rgba(30,30,30,0.9);
 }
 .project-wrapper {
 	background: #ffffff;
 	width: 100%;
 	height: 100%;
-	margin: 2rem 0 2rem 0;
-	border: 1px solid #e6e6e6;
+	margin-bottom: 2rem;
 }
 .hero-ip1{
-	background: #6fbd8d url("../visual-assets/hero-ip1.png")no-repeat scroll center center / cover;
-	height:1351px;
-}
-.hero-ip1a{
-	background: #6fbd8d url("../visual-assets/hero-ip1a.png")no-repeat scroll center center / cover;
-	background-size: 1250px 730px;
-	height: 730px;
+	background: #6fbd8d url("../visual-assets/hero-ip1")no-repeat scroll center center / cover;
+	height:550px;
 }
 .hero-ip1b{
 	background: #6fbd8d url("../visual-assets/hero-ip1b.png")no-repeat scroll 65% 50% / cover;
 	height:644px;
-}
-.subpage-footer-ip{
-	background: #6fbd8d url("../visual-assets/subpage-footer-ip.png")no-repeat scroll 65% 50% / cover;
-	height:644px;
-}
-.story-wrapper{
-	color: #ffffff;
-	margin: 20.5rem 10rem !important;
-	opacity: .8;
-}
-.story-subwrap{
-	text-align: center;
-	padding: 0 2.5rem;
-	border-right: 1px dashed rgba(250,250,250,0.5);
-}
-.story-subwrap2{
-	border-right: none;
-}
-.story-subwrap p, .story-subwrap2 p{
-	color: #ffffff !important;
-}
-.story-subwrap h5, .story-subwrap2 h5{
-	color: #ffffff !important;
-}
-//-----Foundation Assets-----//
-button, .button{
-	float: right;
-	display: inline;
-	//right: 5.1rem;
-	//top: 2rem;
-	//z-index: 9999;
-	//position: fixed;
 }
