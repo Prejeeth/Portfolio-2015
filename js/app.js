@@ -4,9 +4,9 @@
 		modal.removeClass('modal-open');
 	}
  
-	$('#modal-1-link').on('click', function() {
+	$('.modal-link').on('click', function() {
 		$('body').addClass('no-scroll');
-  		$('#modal-1').addClass('modal-open')
+  		$('#' + $(this).data('reveal-id')).addClass('modal-open')
 	})
 
 	$('.modal-close').click(function() {
