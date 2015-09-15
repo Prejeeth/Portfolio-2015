@@ -92,7 +92,8 @@ body.no-scroll {
 	margin-bottom: 1.2rem;
 }
 .skills p{
-	color: #646464;
+	//color: #646464;
+	color: #8e8e8e;
 	font-weight: 300;
 }
 .font-icon-visual{
@@ -184,6 +185,10 @@ ul.home-social {
 }
 .recent-shot {
 	text-align: center;
+}
+.recent-shot2 {
+	text-align: center;
+	margin: 2.5rem 0;
 }
 .caption {
 	font-size: .8rem;
@@ -347,10 +352,10 @@ p.intro-text-subpage {
 	text-align: justify;
 }
 .modal-rowwidth3{
-	padding: 0rem 2rem 0rem 6rem;
+	padding: 0rem 2rem 0rem 4rem;
 }
 .modal-rowwidth4{
-	padding: 0rem 6rem 0rem 2rem;
+	padding: 0rem 4rem 0rem 2rem;
 }
 .modal-open {
 	display: block;
@@ -386,7 +391,7 @@ p.intro-text-subpage {
 }
 .subpage-footer-ip{
 	background: #6fbd8d url("../visual-assets/subpage-footer-ip.png")no-repeat scroll 65% 50% / cover;
-	height:644px;
+	height:500px;
 }
 .story-wrapper{
 	color: #ffffff;
@@ -406,6 +411,9 @@ p.intro-text-subpage {
 }
 .story-subwrap h5, .story-subwrap2 h5{
 	color: #ffffff !important;
+}
+.specialp-1{
+	text-align: justify;
 }
 //-----Foundation Assets-----//
 button, .button{
