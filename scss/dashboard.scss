@@ -8,6 +8,15 @@ body{
 body.no-scroll {
 	overflow: hidden;
 }
+::-moz-selection { 
+    color: #ffffff;
+    background: #786e8b;
+}
+
+::selection {
+    color: #ffffff; 
+    background: #786e8b;
+}
 
 .hero-wrapper {
 	background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
