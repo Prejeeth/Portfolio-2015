@@ -399,7 +399,7 @@ p.intro-text-subpage {
 }
 .hero-dingo1{
 	background: #6fbd8d url("../visual-assets/hero-dingo1.png")no-repeat scroll center center / cover;
-	height:2431px;
+	height:2901px;
 }
 .hero-ip1a{
 	background: #6fbd8d url("../visual-assets/hero-ip1a.png")no-repeat scroll center center / cover;
@@ -461,4 +461,7 @@ button, .button{
 	//top: 2rem;
 	//z-index: 9999;
 	//position: fixed;
+}
+button:hover, button:focus, .button:hover, .button:focus{
+	background-color: #6b617e;
 }
