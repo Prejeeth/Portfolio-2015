@@ -26,7 +26,7 @@ body.no-scroll {
 }
 
 .hero-wrapper {
-	background: #6fbd8d url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
+	background: #786e8b url("../visual-assets/hero1.jpg")repeat scroll center center / cover;
 	background-attachment: fixed;
 	//background: #6fbd8d;
     min-height: 600px;
@@ -99,6 +99,7 @@ body.no-scroll {
 .section-header{
 	text-align: center;
 	font-size: 2rem;
+	font-weight: 300;
 	color: #444444;
 	margin-bottom: 3.2rem;
 }
@@ -329,6 +330,7 @@ p.intro-text-subpage {
 .section-header4{
 	text-align: center;
 	font-size: 2rem;
+	font-weight: 300;
 	color: #444444;
 	margin: 0 auto 3.2rem auto;
 }
@@ -420,6 +422,10 @@ p.intro-text-subpage {
 }
 .subpage-footer-ip{
 	background: #6fbd8d url("../visual-assets/subpage-footer-ip.png")no-repeat scroll 65% 50% / cover;
+	height:500px;
+}
+.subpage-footer-dingo{
+	background: #6fbd8d url("../visual-assets/subpage-footer-dingo.png")no-repeat scroll 65% 50% / cover;
 	height:500px;
 }
 .story-wrapper{
