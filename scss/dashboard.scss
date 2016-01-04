@@ -190,6 +190,9 @@ ul.home-social {
 .fat-footer .social-wrapper{
  	margin: auto;
  }
+ span.highlight{
+    background-color: #786E8B;
+}
 
  //-----Recent Work----//
 
@@ -345,7 +348,9 @@ p.intro-text-subpage {
 		border-bottom: 1px dashed #e6e6e6;
 	}
 	.intro-text h3 {
-		display: none;
+		//display: none;
+		font-size: 1.8rem;
+		margin: 2.4rem 2rem 5rem 2rem;
 	}
 	.recent {
 		margin: 1rem 0 !important;
@@ -358,11 +363,18 @@ p.intro-text-subpage {
 	}
 	.story-wrapper{
 		color: #ffffff;
-		margin: 13rem 4rem !important;
+		margin: 13rem 3rem;
 		opacity: .8;
+		border: 2px solid #fff;
+	}
+	.story-subwrap{
+		padding: 0 1.5rem;
 	}
 	.story-subwrap h5{
-		font-size: 1rem
+		font-size: .8rem !important;
+	}
+	.intro-text-subpage h3{
+		margin: 1.4rem 5.5rem 5rem 5.5rem;
 	}
  }
 //-----Modal 1 IP-----//
