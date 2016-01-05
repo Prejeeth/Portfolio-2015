@@ -68,7 +68,10 @@ body.no-scroll {
 }
 .me{
 	text-align: center;
+	background: url("../visual-assets/me1.png")repeat scroll 0 0 / cover;
 	margin: 4rem auto 0 auto;
+	width: 200px;
+	height: 200px;
 }
 .spz-thumb{
 	text-align: center;
@@ -347,9 +350,13 @@ p.intro-text-subpage {
 		padding: 2rem 2.5rem;
 		border-bottom: 1px dashed #e6e6e6;
 	}
+	.intro-text h1{
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+	}
 	.intro-text h3 {
-		//display: none;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
+		line-height: 2.2rem;
 		margin: 2.4rem 2rem 5rem 2rem;
 	}
 	.recent {
@@ -362,9 +369,7 @@ p.intro-text-subpage {
 		margin: 3.2rem auto 3.2rem auto;
 	}
 	.story-wrapper{
-		color: #ffffff;
 		margin: 13rem 3rem;
-		opacity: .8;
 		border: 2px solid #fff;
 	}
 	.story-subwrap{
@@ -376,7 +381,42 @@ p.intro-text-subpage {
 	.intro-text-subpage h3{
 		margin: 1.4rem 5.5rem 5rem 5.5rem;
 	}
+	.me{
+		background: url("../visual-assets/me1-small.png")repeat scroll 0 0 / cover;
+		width: 141px;
+		height: 141px;
+	}
+	.skills{
+		padding: 0 .6rem;
+	}
+	.section-header, .section-header2, .section-header3, .fat-footer h2{
+		font-size: 1.6rem;	
+	}
+	.recent-works {
+	    padding: 4rem 2rem 8rem 2rem;
+	}
+	.biography{
+		padding: 4rem 2rem;
+	}
+	.biography p{
+		margin-right: 1rem;
+	}
+	.biography h3{
+		font-size: 1.4rem;
+		line-height: 2rem;
+		margin: 2.4rem 2rem 3rem auto;
+	}
+	.fat-footer{
+		padding: 4rem 2.2rem;
+	}
+	ul.home-social{
+		margin-left: 0;
+	}
+	.footer-font-icon-visual{
+		font-size: 3rem;
+	}
  }
+ //----- End Media Resets-----//
 //-----Modal 1 IP-----//
 
 .modal-container {
