@@ -307,7 +307,7 @@ ul.home-social {
 .intro-text-subpage h1 {
 	text-align: center;
 	font-size: 3.5rem;
-	font-weight: 300;
+	font-weight: 400;
 	color: #ffffff;
 	padding-top:4rem;
 	line-height: 4.5rem;
@@ -368,15 +368,18 @@ p.intro-text-subpage {
 		color: #444444;
 		margin: 3.2rem auto 3.2rem auto;
 	}
-	.story-wrapper{
-		margin: 13rem 3rem;
-		border: 2px solid #fff;
+	.row.story-wrapper{
+		margin: 16rem 0rem !important;
+		width: 100% !important;
 	}
 	.story-subwrap{
-		padding: 0 1.5rem;
+		padding: 0 1.8rem !important;
 	}
-	.story-subwrap h5{
+	.story-subwrap h5, .story-subwrap2 h5{
 		font-size: .8rem !important;
+	}
+	.intro-text-subpage h1 {
+		line-height: 3rem;
 	}
 	.intro-text-subpage h3{
 		margin: 1.4rem 5.5rem 5rem 5.5rem;
@@ -413,7 +416,46 @@ p.intro-text-subpage {
 		margin-left: 0;
 	}
 	.footer-font-icon-visual{
-		font-size: 3rem;
+		font-size: 2.5rem;
+	}
+	.font-icon-visual{
+		font-size: 4rem;
+	}
+	row.story-wrapper2{
+		margin: 0 2rem !important;
+	}
+	.row.row.story-wrapper2{
+		margin: 0 0rem !important;
+	}
+	.modal-rowwidth2{
+		padding: 4rem;
+	}
+	.modal-rowwidth3{
+    	padding: 0rem 1rem 3rem 1rem !important;
+	}
+	.modal-rowwidth4{
+    	padding: 0rem 1rem 0rem 1rem !important;
+	}
+	.section-header4{
+		font-size: 1.6rem;
+		margin: 0 auto 2.2rem auto;
+	}
+	.intro-text-subpage h1{
+		font-size: 2.5rem;
+	}
+	.intro-text-subpage h3{
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	p.intro-text-subpage{
+		text-align: center;
+	}
+	.specialp-1{
+		text-align: center !important;
+		padding: 1rem 0rem 2rem 0rem;
+	}
+	.skills h5{
+		padding-top: 2rem;
 	}
  }
  //----- End Media Resets-----//
