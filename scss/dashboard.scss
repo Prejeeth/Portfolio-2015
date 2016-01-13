@@ -80,7 +80,7 @@ body.no-scroll {
 .intro-text h1{
 	text-align: center;
 	font-size: 3.5rem;
-	font-weight: 300;
+	font-weight: 400;
 	color: #ffffff;
 	margin-top:2rem;
 	line-height: 4.5rem;
@@ -341,7 +341,7 @@ p.intro-text-subpage {
 	margin: 0 auto 3.2rem auto;
 }
 
-//-----Media Resets-----//
+//-----Media Resets SMALL-----//
 
 @media #{$small-only} {
 	.skills{
@@ -369,11 +369,11 @@ p.intro-text-subpage {
 		margin: 3.2rem auto 3.2rem auto;
 	}
 	.row.story-wrapper{
-		margin: 16rem 0rem !important;
+		margin: 14rem 0rem !important;
 		width: 100% !important;
 	}
 	.story-subwrap{
-		padding: 0 1.8rem !important;
+		padding: 0 1.6rem !important;
 	}
 	.story-subwrap h5, .story-subwrap2 h5{
 		font-size: .8rem !important;
@@ -457,8 +457,32 @@ p.intro-text-subpage {
 	.skills h5{
 		padding-top: 2rem;
 	}
+	.hero-dingo1a{
+		background: #6fbd8d url("../visual-assets/hero-dingo1a-2x.png")no-repeat scroll -744px center / cover !important;
+	}
  }
- //----- End Media Resets-----//
+ //-----Media Resets MEDIUM-----//
+
+@media #{$medium-only} {
+	.row.story-wrapper{
+			margin: 15rem 0rem !important;
+	}
+	.modal-rowwidth3{
+    	padding: 0rem 1.5rem 0rem 1rem !important;
+	}
+	.modal-rowwidth4{
+    	padding: 0rem 1.5rem 0rem 1rem !important;
+	}
+	.skills{
+		height: 80%;
+		padding: 0rem 1rem;
+	}
+	.row.row.story-wrapper2{
+		margin: 0rem !important;
+	}
+ }
+
+//----- End Media Resets-----//
 //-----Modal 1 IP-----//
 
 .modal-container {
